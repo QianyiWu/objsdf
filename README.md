@@ -60,7 +60,7 @@ If you are interested in **NeRF / neural implicit representions + semantic map**
 
 * Neural implicit generative model, [Sem2NeRF](https://donydchen.github.io/sem2nerf/).
 
-* Digital human animation, [SSPNeRF](https://alvinliu0.github.io/projects/SSP-NeRF).
+* Digital speaking portrait animation, [SSPNeRF](https://alvinliu0.github.io/projects/SSP-NeRF).
 
 ## Acknowledgments
 
