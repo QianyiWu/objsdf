@@ -4,10 +4,10 @@
 
 ![teaser](./media/teaser.gif)
 
-This repository contains an implementation for the paper:
-**Object-Compositional Neural Implicit Surfaces**.
-[Qianyi Wu](https://qianyiwu.github.io/), [Xian Liu](https://alvinliu0.github.io/), [Yuedong Chen](https://donydchen.github.io/), [Kejie Li](https://likojack.github.io/kejieli/#/home), [Chuanxia Zheng](https://www.chuanxiaz.com/), [Jianfei Cai](https://jianfei-cai.github.io/), [Jianmin Zheng](https://personal.ntu.edu.sg/asjmzheng/).
-The paper introduce **ObjectSDF**: a volume rendering framework for object-compositional implicit neural surfaces, allowing to learn high fidelity geometry of each object from a sparse set of input images and corresponding semantic segmentation map.
+This repository contains the official implementation of the ECCV2022 paper:  
+**Object-Compositional Neural Implicit Surfaces**.  
+[Qianyi Wu](https://qianyiwu.github.io/), [Xian Liu](https://alvinliu0.github.io/), [Yuedong Chen](https://donydchen.github.io/), [Kejie Li](https://likojack.github.io/kejieli/#/home), [Chuanxia Zheng](https://www.chuanxiaz.com/), [Jianfei Cai](https://jianfei-cai.github.io/), [Jianmin Zheng](https://personal.ntu.edu.sg/asjmzheng/).  
+The paper introduces **ObjectSDF**: a volume rendering framework for object-compositional implicit neural surfaces, allowing to learn high fidelity geometry of each object from a sparse set of input images and the corresponding semantic segmentation maps.
 
 ## Setup
 
@@ -60,7 +60,7 @@ If you are interested in **NeRF / neural implicit representions + semantic map**
 
 * Neural implicit generative model, [Sem2NeRF](https://donydchen.github.io/sem2nerf/).
 
-* Digital human animation, [SSPNeRF](https://alvinliu0.github.io/projects/SSP-NeRF).
+* Digital speaking portrait animation, [SSPNeRF](https://alvinliu0.github.io/projects/SSP-NeRF).
 
 ## Acknowledgments
 
