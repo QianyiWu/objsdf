@@ -194,9 +194,10 @@ class ScanNetDataset(torch.utils.data.Dataset):
             ori_sems = cv2.resize(imageio.imread(os.path.join(seg_dir, "%s.png" % str(cur_id))), (self.img_res[1], self.img_res[0]), interpolation=cv2.INTER_NEAREST).\
                 reshape(1, -1).transpose(1, 0)
             
+            ins_list = np.unique(ori_sems)
             cur_sems = np.copy(ori_sems)
             if self.label_mapping is not None:
-                for i in self.label_mapping:
+                for i in ins_list if self.instance else self.label_mapping:
                     # cur_sems[cur_sems == i] = self.label_mapping.index(i)
                     cur_sems[ori_sems == i] = self.label_mapping.index(self.instance_mapping_dict[i]) if self.instance else self.label_mapping(i)
             split_sems.append(cur_sems)
