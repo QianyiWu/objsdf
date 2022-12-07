@@ -47,11 +47,13 @@ python training/exp_runner.py --conf confs/toydesk2.conf --train_type objsdf
 If you use this project for your research, please cite our paper.
 
 ```bibtex
-@article{wu2022objectsdf,
-    title={Object-Compositional Neural Implicit Surfaces},
-    author={Wu, Qianyi and Liu, Xian and Chen, Yuedong and Li, Kejie and Zheng, Chuanxia and Cai, Jianfei and Zheng, Jianmin},
-    journal={ECCV},
-    year={2022}
+@inproceedings{wu2022object,
+  title={Object-compositional neural implicit surfaces},
+  author={Wu, Qianyi and Liu, Xian and Chen, Yuedong and Li, Kejie and Zheng, Chuanxia and Cai, Jianfei and Zheng, Jianmin},
+  booktitle={European Conference on Computer Vision},
+  pages={197--213},
+  year={2022},
+  organization={Springer}
 }
 ```
 
