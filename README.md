@@ -7,13 +7,13 @@
 This repository contains the official implementation of the ECCV2022 paper:  
 **Object-Compositional Neural Implicit Surfaces**.  
 [Qianyi Wu](https://qianyiwu.github.io/), [Xian Liu](https://alvinliu0.github.io/), [Yuedong Chen](https://donydchen.github.io/), [Kejie Li](https://likojack.github.io/kejieli/#/home), [Chuanxia Zheng](https://www.chuanxiaz.com/), [Jianfei Cai](https://jianfei-cai.github.io/), [Jianmin Zheng](https://personal.ntu.edu.sg/asjmzheng/).  
-The paper introduces **ObjectSDF**: a volume rendering framework for object-compositional implicit neural surfaces, allowing to learn high fidelity geometry of each object from a sparse set of input images and the corresponding semantic segmentation maps.
+The paper introduces **ObjectSDF**: a volume rendering framework for object-compositional implicit neural surfaces, allowing learning high fidelity geometry of each object from a sparse set of input images and the corresponding semantic segmentation maps.
 
 ## Setup
 
-#### Installation Requirmenets
+#### Installation Requirements
 
-The code is compatible with python 3.9 and pytorch 1.10.1. In addition, the following packages are required:
+The code is compatible with Python 3.9 and Pytorch 1.10.1. In addition, the following packages are required:
 numpy, pyhocon, plotly, scikit-image, trimesh, imageio, opencv, torchvision.
 
 You can create an anaconda environment called `objsdf` with the required dependencies by running:
@@ -25,7 +25,7 @@ conda activate objsdf
 
 #### Data
 
-We provide the installation guidence to use our code in Toydesk dataset. At first, you need to download [Toydesk](https://zjueducn-my.sharepoint.com/:u:/g/personal/ybbbbt_zju_edu_cn/EVgSQo48M6ZNmNqrggYU0qUBqSlAjOTMYn1YuRztdM2uTw?e=icdHdp) dataset and put it in the './data' folder. Then
+We provide the installation guidance to use our code in the Toydesk dataset. First, you need to download [Toydesk](https://www.dropbox.com/s/bdqiv7pc13p6ugp/toydesk_data_full.zip?dl=0) dataset and put it in the './data' folder. Then
 
 ```
 cd data
@@ -58,7 +58,7 @@ If you use this project for your research, please cite our paper.
 ```
 
 ## Related Links
-If you are interested in **NeRF / neural implicit representions + semantic map**, we would also like to recommend you to check out our other related works:
+If you are interested in **NeRF / neural implicit representations + semantic map**, we would also like to recommend you to check out our other related works:
 
 * Neural implicit generative model, [Sem2NeRF](https://donydchen.github.io/sem2nerf/).
 
